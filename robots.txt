@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jose5estrellas.github.io/plancad-engineering/sitemap.xml
