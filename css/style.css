@@ -377,4 +377,49 @@ nav {
 
 
 }
+nav {
+
+display: flex;
+align-items: center;
+gap: 35px;
+
+}
+
+
+.menu-links {
+
+display: flex;
+gap: 30px;
+
+}
+
+
+.language {
+
+border: 1px solid #0066a1;
+padding: 8px 18px;
+border-radius: 4px;
+color: #0066a1;
+
+}
+
+
+
+@media(max-width:768px){
+
+nav {
+
+flex-direction: column;
+
+}
+
+
+.menu-links {
+
+flex-direction: column;
+text-align:center;
+
+}
+
+}
 ```
