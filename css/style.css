@@ -23,7 +23,7 @@ header {
     top: 0;
     background: #ffffff;
     border-bottom: 1px solid #e2e2e2;
-    padding: 10px 0;
+    padding: 12px 0; /* Espacio superior e inferior equilibrado */
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -34,9 +34,9 @@ header {
     align-items: center;
 }
 
-/* LOGO RECORTADO (Logo1.jpg) */
+/* LOGO AMPLIADO Y PROPORCIONADO */
 .logo {
-    height: 42px; /* Altura ideal para que encaje de forma limpia */
+    height: 75px; /* Altura ideal para que se vea grande y legible */
     width: auto;
     display: block;
 }
