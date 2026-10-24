@@ -23,7 +23,7 @@ header {
     top: 0;
     background: #ffffff;
     border-bottom: 1px solid #e2e2e2;
-    padding: 12px 0; /* Espacio superior e inferior equilibrado */
+    padding: 10px 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -32,11 +32,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
-/* LOGO AMPLIADO Y PROPORCIONADO */
+/* LOGO */
 .logo {
-    height: 75px; /* Altura ideal para que se vea grande y legible */
+    height: 65px;
     width: auto;
     display: block;
 }
@@ -44,19 +45,19 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .menu-links {
     display: flex;
-    gap: 25px;
+    gap: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #1d2935;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 nav a:hover {
@@ -65,11 +66,11 @@ nav a:hover {
 
 .language {
     border: 1px solid #0066a1;
-    padding: 6px 14px;
+    padding: 5px 12px;
     border-radius: 4px;
     color: #0066a1;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .language:hover {
@@ -199,7 +200,7 @@ footer a {
     }
 
     .logo {
-        height: 35px;
+        height: 50px;
     }
 
     nav {
